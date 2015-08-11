@@ -3,6 +3,10 @@ I did not look into Heroku
 I did not look into setting it up on my own server
 I intend to look into side chapters on detail on my own later on
 
+When does the ";" actually belong in a Javascript???????
+
+At this point, I'm assuming there are two different types of command to interact with the DB. Mongo commands and Browser console commands.
+
 when meteor runs
 if in the server directory, doesn't load in the browser, just runs automatically in the server
 
