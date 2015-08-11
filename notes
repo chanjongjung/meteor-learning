@@ -7,6 +7,8 @@ When does the ";" actually belong in a Javascript???????
 
 At this point, I'm assuming there are two different types of command to interact with the DB. Mongo commands and Browser console commands.
 
+removing autopublish is a good practice when having a live website...?
+
 when meteor runs
 if in the server directory, doesn't load in the browser, just runs automatically in the server
 
