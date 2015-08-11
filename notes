@@ -2,3 +2,29 @@ Notes
 I did not look into Heroku
 I did not look into setting it up on my own server
 I intend to look into side chapters on detail on my own later on
+
+when meteor runs
+if in the server directory, doesn't load in the browser, just runs automatically in the server
+
+(page 13)
+Code in the /serverdirectory only runs on the server.
+Code in the /clientdirectory only runs on the client.
+Everything else runs on both the client and server.
+Files in /libare loaded before anything else.
+Any main.*file is loaded after everything else.
+Your static assets (fonts, images, etc.) go in the /publicdirectory
+
+(page 36)
+Code inside folders that are not client/or server/will run in bothcontexts. So the Posts
+collection is available to both client and server. However, what the collection does in each
+environment is very different.
+
+(page 28)
+Meteor's templating system, Handlebars. Handlebars is simply HTML, with
+the addition of three things: partials, expressionsand block helpers.
+Partialsuse the {{> templateName}}syntax, and simply tell Meteor to replace the partial with the
+template of the same name (in our case postItem).
+Expressionssuch as {{title}}either call a property of the current object, or the return value of a
+template helper as defined in the current template's manager (more on this later).
+Finally, block helpersare special tags that control the flow of the template, such as {{#each}}…
+{{/each}}or {{#if}}…{{/if}}.

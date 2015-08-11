@@ -15,6 +15,6 @@ var postsData = [
 	url: 'http://themeteorbook.com'
 }
 ];
-	Template.postsList.helpers({
+Template.postsList.helpers({
 	posts: postsData
 });
