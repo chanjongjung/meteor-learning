@@ -12,6 +12,8 @@ removing autopublish is a good practice when having a live website...?
 when meteor runs
 if in the server directory, doesn't load in the browser, just runs automatically in the server
 
+REDO THE ENTIRE PROJECT
+
 (page 13)
 Code in the /serverdirectory only runs on the server.
 Code in the /clientdirectory only runs on the client.
